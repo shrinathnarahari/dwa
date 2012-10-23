@@ -19,7 +19,7 @@ If you want a different default time format for this app, set it below
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
-	define('APP_EMAIL', 'webmaster@myapp.com'); 
+	define('APP_EMAIL', 'webmaster@cloudsliver.com'); 
 
 /* 
 A email designated to receive messages from the server. Examples:
@@ -29,10 +29,10 @@ A email designated to receive messages from the server. Examples:
  	
  	Some might want this to be the same as the APP_EMAIL, others might want to create a designated gmail address for it
 */ 	
-	define('SYSTEM_EMAIL', 'webmaster@myapp.com'); 
+	define('SYSTEM_EMAIL', 'webmaster@cloudsliver.com'); 
 
 # Default DB name for this app
-	define('DB_NAME', "myapp_com"); 
+	define('DB_NAME', "p2_cloudsliver.com"); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
