@@ -2,7 +2,7 @@
 # LIVE
 
 #define('IN_PRODUCTION', TRUE);
-#define('DISPLAY_ERRORS', FALSE);
+#define('DISPLAY_ERRORS', TRUE);
 #define('ENABLE_OUTGOING_EMAIL', TRUE);
 
 # Toggle this based on whether you want to connect to your local DB or your live DB
