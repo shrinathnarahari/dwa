@@ -25,6 +25,8 @@ class users_controller extends base_controller {
 	// print_r($_POST);
 		echo "db name passed   ";
 	echo DB_NAME;	
+	echo "           "
+	echo DB_PASS;
 	echo "   db name passed   ";
 	# Insert this user into the database
 	$user_id = DB::instance(DB_NAME)->insert("users", $_POST);
