@@ -32,7 +32,7 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'webmaster@cloudsliver.com'); 
 
 # Default DB name for this app
-	define('DB_NAME', "cloudsli_p2_cloudsliver.com"); 
+	define('DB_NAME', "cloudsli_p2_cloudsliver_com"); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');
