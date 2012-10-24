@@ -7,6 +7,7 @@
 
 # Toggle this based on whether you want to connect to your local DB or your live DB
 define('REMOTE_DB', FALSE);
+define('SYSTEM_EMAIL', 'webmaster@cloudsliver.com'); 
 
 if (REMOTE_DB) {
 	define('DB_HOST', '');
