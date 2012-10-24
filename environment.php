@@ -26,7 +26,7 @@ if (REMOTE_DB) {
 
 } else {
 	define('DB_HOST', 'localhost');
-	define('DB_USER', 'root');
+	define('DB_USER', 'cloudsli_root');
 	define('DB_PASS', '');	
 }
 
