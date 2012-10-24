@@ -25,7 +25,7 @@ class users_controller extends base_controller {
 	// print_r($_POST);
 		echo "db name passed   ";
 	echo DB_NAME;	
-	echo "           "
+	echo "           ";
 	echo DB_PASS;
 	echo "   db name passed   ";
 	# Insert this user into the database
