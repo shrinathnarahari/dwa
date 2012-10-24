@@ -1,7 +1,7 @@
 <?php
 # LIVE
 
-define('IN_PRODUCTION', TRUE);
+define('IN_PRODUCTION', FALSE);
 define('DISPLAY_ERRORS', TRUE);
 define('ENABLE_OUTGOING_EMAIL', TRUE);
 
