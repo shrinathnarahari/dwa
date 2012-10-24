@@ -27,7 +27,7 @@ if (REMOTE_DB) {
 } else {
 	define('DB_HOST', 'localhost');
 	define('DB_USER', 'cloudsli_root');
-	define('DB_PASS', '');	
+	define('DB_PASS', 'Boston12345');	
 }
 
 # If you want to test parts of your app that behave differently based on the time, you can force the time here.
