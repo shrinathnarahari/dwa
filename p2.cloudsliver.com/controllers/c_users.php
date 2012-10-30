@@ -28,6 +28,15 @@ class users_controller extends base_controller {
 	echo "           ";
 	echo DB_PASS;
 	echo "   db name passed   ";
+		# Encrypt the password	
+	$_POST['password'] = sha1(PASSWORD_SALT.$_POST['password']);
+	
+	#More data we want stored with the user
+	$_POST['created'] = Time::now();
+	$_POST('modified'] = Time::now();
+	$_POST('token'] = sha1(TOKEN_SALT.$_POST['email'].Utils::generate_random_string());
+	
+	
 	# Insert this user into the database
 	$user_id = DB::instance(DB_NAME)->insert("users", $_POST);
 	
