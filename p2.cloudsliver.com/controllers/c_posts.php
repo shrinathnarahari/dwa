@@ -1,6 +1,6 @@
 <?php
 
-class post_controller extends base_controller {
+class posts_controller extends base_controller {
 
       public function __construct() {
 		parent::__construct();
