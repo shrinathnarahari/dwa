@@ -63,13 +63,23 @@ class users_controller extends base_controller {
       $token = DB::instance(DB_NAME)->select_field($q);	
 	
 	
-	if (!$token){
-	   Router::redirect("/users/login");
+# If we didn't get a token back, login failed
+	if(!$token) {
+
+		# Send them back to the login page
+		Router::redirect("/users/login/");
+		
+	# But if we did, login succeeded! 
+	} else {
+
+		# Store this token in a cookie
+		setcookie("token", $token, strtotime('+1 year'), '/');
+		
+		# Send them to the main page - or whever you want them to go
+		Router::redirect("/");
+
 	}
-	else{
-	 setcookie("token",$token, strtotime('+1 year'), '/');
-	 Router::redirect("/");
-	}
+
 	
 	}
 	public function logout() {
