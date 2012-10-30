@@ -50,6 +50,24 @@ class users_controller extends base_controller {
 		echo $this->template;
 	}
 	
+	public function p_login() {
+	$_POST = DB::instance(DB_NAME)->sanitize($_POST);
+	$_POST['password'] = sha1(PASSWORD_SALT.$_POST['password']);
+	
+	$q = "Select token from users where email = '"._POST['email']." 
+	                              and password = '"._POST['password']."'"
+	$token = DB::instance(DB_NAME)->select field($q);
+	
+	
+	if (!$token){
+	   Router::redirect("/users/login");
+	}
+	else{
+	 setcookie("token",$token, strtotime('+1 year'), '/');
+	 Router::redirect("/");
+	}
+	
+	}
 	public function logout() {
 		echo "This is the logout page";
 	}
