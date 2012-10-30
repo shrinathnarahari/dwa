@@ -96,8 +96,8 @@ class users_controller extends base_controller {
 			return false;
 	}
 	#setup view
-	this->template->content = View::instance('v_users_profile');
-	this->template->title = "Profile of".$this->user->first_name;
+	$this->template->content = View::instance('v_users_profile');
+	$this->template->title = "Profile of".$this->user->first_name;
 	
 	#Render this template
     echo $this->template;
