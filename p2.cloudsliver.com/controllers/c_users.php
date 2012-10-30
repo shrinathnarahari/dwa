@@ -53,13 +53,13 @@ class users_controller extends base_controller {
 	public function p_login() {
 	$_POST = DB::instance(DB_NAME)->sanitize($_POST);
 	$_POST['password'] = sha1(PASSWORD_SALT.$_POST['password']);
-	
-	$q = "Select token from users where email = '".$_POST['email']." 
-	                              and password = '".$_POST['password']."'";
 								  
-	
+		$q = "SELECT token 
+		FROM users 
+		WHERE email = '".$_POST['email']."' 
+		AND password = '".$_POST['password']."'";
 		
-	$token = DB::instance(DB_NAME)->select field($q);
+	$token = DB::instance(DB_NAME)->select_field($q);	
 	
 	
 	if (!$token){
