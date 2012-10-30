@@ -44,7 +44,10 @@ class users_controller extends base_controller {
 	echo "You're signed up";
 	}
 	public function login() {
-		echo "This is the login page";
+	
+	$this->template->content = View::instance('v_users_login');
+	$this->template->title = "Login";
+		echo $this->template;
 	}
 	
 	public function logout() {
