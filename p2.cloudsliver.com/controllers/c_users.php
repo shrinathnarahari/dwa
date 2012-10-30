@@ -33,8 +33,8 @@ class users_controller extends base_controller {
 	
 	#More data we want stored with the user
 	$_POST['created'] = Time::now();
-	$_POST('modified'] = Time::now();
-	$_POST('token'] = sha1(TOKEN_SALT.$_POST['email'].Utils::generate_random_string());
+	$_POST['modified'] = Time::now();
+	$_POST['token'] = sha1(TOKEN_SALT.$_POST['email'].Utils::generate_random_string());
 	
 	
 	# Insert this user into the database
