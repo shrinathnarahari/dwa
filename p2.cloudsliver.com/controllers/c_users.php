@@ -88,14 +88,19 @@ class users_controller extends base_controller {
 		echo "This is the logout page";
 	}
 	
-	public function profile($user_name = NULL) {
-
-		if($user_name == NULL) {
-			echo "No user specified";
-		}
-		else {
-			echo "This is the profile for ".$user_name;
-		}
+	public function profile() {
+		# If user is blank, they're not logged in, show message and don't do anything else
+		
+        if (!$this->user) {
+	        echo "Members only. <a href='/users/login'>Login</a>";
+			return false;
+	}
+	#setup view
+	this->template->content = View::instance('v_users_profile');
+	this->template->title = "Profile of".$this->user->first_name;
+	
+	#Render this template
+    echo $this->template;
 	}
 		
 } # end of the class
