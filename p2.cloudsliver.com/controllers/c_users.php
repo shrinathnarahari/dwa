@@ -68,10 +68,11 @@ class users_controller extends base_controller {
 
 		# Send them back to the login page
 		Router::redirect("/users/login/");
+		echo "No token";
 		
 	# But if we did, login succeeded! 
 	} else {
-
+        echo "token found";
 		# Store this token in a cookie
 		setcookie("token", $token, strtotime('+1 year'), '/');
 		
