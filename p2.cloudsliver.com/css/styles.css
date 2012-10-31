@@ -1,0 +1,85 @@
+	#wrapper {
+	border:2px #400040;
+	width:900px;
+	/*center*/
+			margin:0px auto;
+	padding-left:20px;
+	padding-right:20px;
+	background-color: #FFFFFF;
+			
+		}
+		
+		line1 {
+	border-bottom: 1px solid black;
+	border-bottom-color: #0F0;
+		}
+		h1 {
+	text-align:center;
+	font-size:40px;
+	padding-top:2px;
+	color:#EA7500;
+	font-family: Arial, Helvetica, sans-serif;
+	border:red medium
+		   
+	        
+		}
+	
+		h2 {
+	border:0px solid red;
+	text-align:center;
+	font-size:20px;
+	padding-top:2px;
+	font-family: Arial, Helvetica, sans-serif;
+		}	
+
+	h2 {
+	border:0px solid red;
+	text-align:center;
+	font-size:15px;
+	padding-top:1px;
+	font-family: "Arial Black", Gadget, sans-serif;
+		}
+		#date {
+	font-style:italic;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		#feature-image {
+			height400px;
+			width:400px;
+			
+			margin:0px auto;
+		
+			/*border:2px #FF8000;	*/
+			margin-top:10px;
+			float:left
+
+		}
+		
+		#caption {
+	text-align:center;
+	border:0px solid black;
+	width:900px;
+	margin:0px auto;
+		}
+		
+		#left-column {
+			width:430px;
+			border:0px solid black;
+			float:right;
+		}
+		
+		#right-column {
+			width:430px;
+			float:right;
+			border:0px solid black;
+		}
+		
+		#footer {
+			clear:both;
+			padding-bottom:20px;
+			border:0px solid red;
+		}
+		
+	</style>
