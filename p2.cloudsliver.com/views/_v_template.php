@@ -59,14 +59,14 @@
 		</div>
 	
         <div id="content"><!-- InstanceBeginEditable name="content" -->
-          <h1>Welcome to P2 Microblog</h1>
+          <h1>Listen to what others are saying!</h1>
 		</div>
    </div>
 </div>		
 
 	
 	<br>
-	<?=$content;?> 
+	<!--?=$content;?--> 
 
 </body>
 </html>
