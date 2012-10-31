@@ -66,7 +66,7 @@
 
 	
 	<br>
-	<!--?=$content;?--> 
+	<?=$content;?> 
 
 </body>
 </html>
