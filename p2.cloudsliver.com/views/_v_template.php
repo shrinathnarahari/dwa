@@ -21,7 +21,7 @@
    <div id="wrapper">
 	
 		<div id="logo">
-			<img src="images/blog.jpg" />
+			<img src="images/b1.jpg" />
 		</div>
 		
 		<div id="social-media-icons">
@@ -34,28 +34,28 @@
 		</div>
 		
 		<div id="topnav">
-			<ul>
 			  <? if($user): ?>
+		      <ul>
              	<li><a href='/users/logout'>Logout</a></li>
                 <li><a href='/posts/users/'>Change who you're following</a></li>
 			    <li><a href='/posts/'>View posts</a></li>
                 <li><a href='/posts/add'>Add a new post</a></li>						
 				<li><a href=""> </a></li>
-				
+			</ul>
 			 <? else: ?>
-		
+		     <ul>
 			    <li><a href='/users/signup'>Sign up</a></li>
 			    <li><a href='/users/login'>Log in</a></li>
 		        <li><a href=""> </a></li>
 				<li><a href=""> </a></li>
 				<li><a href=""> </a></li>
+			</ul>
 		   <? endif; ?>
 		
-            </ul>
 		</div>
 		
 				<div id="banner">
-			<img src="images/b1.jpg" />
+			<img src="images/blog.jpg" />
 		</div>
 	
         <div id="content"><!-- InstanceBeginEditable name="content" -->
