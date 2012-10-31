@@ -53,6 +53,14 @@
 		
             </ul>
 		</div>
+		
+				<div id="banner">
+			<img src="images/b1.jpg" />
+		</div>
+	
+        <div id="content"><!-- InstanceBeginEditable name="content" -->
+          <h1>Welcome to P2 Microblog</h1>
+		</div>
    </div>
 </div>		
 
