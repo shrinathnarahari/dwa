@@ -1,3 +1,5 @@
+<div id="body">
+
 <form method='POST' action='/users/p_login'>
            
     Email<br>
@@ -11,3 +13,5 @@
 	<input type='submit'>
 
 </form> 
+
+</div>
