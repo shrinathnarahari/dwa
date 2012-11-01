@@ -50,7 +50,7 @@ public function index() {
 	# Build our query
 	$q = "SELECT * 
 		FROM posts p, users u where p.user_id = u.user_id and p.user_id in (select uu.user_id_followed from users_users uu where uu.user_id=".$this->user->user_id.")";
-	echo Debug::dump($q,"query");
+	# echo Debug::dump($q,"query");
 	# Run our query, grabbing all the posts and joining in the users	
 	$posts = DB::instance(DB_NAME)->select_rows($q);
 	
