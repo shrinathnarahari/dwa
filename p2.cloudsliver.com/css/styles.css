@@ -160,9 +160,9 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 
 #topnav 			{ clear:both;  }
 #topnav ul			{ border-top:1px #000 solid; border-bottom:1px #000 solid;
-						margin:20px 0; padding:10px 0;	}
+						margin:10px 0; padding:10px 0;	}
 #topnav ul li		{ display:inline;	}
-#topnav ul li a		{ padding:0 15px;	}
+#topnav ul li a		{ padding:0 10px;	}
 
 #topnav a:link			{ color: #000;  }
 #topnav a:visited		{ color: #555;  }
