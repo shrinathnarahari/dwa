@@ -170,7 +170,7 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 #topnav a:focus			{ color: #666;  }
 #topnav a:hover     	{ color: #F90;  }
 
-#banner 			{ margin-bottom:5px;  }
+#banner 			{ margin-bottom:5px;  float:left;    }
 #slider				{ margin-bottom:5px; 	}
 
 #content 			{ width:300px; float:left;  }
@@ -232,7 +232,7 @@ input 	{
 input:focus, textarea:focus	{ background-color:#BFEBFF; }
 
 textarea {
-		width: 280px; height: 150px; margin:0 0 16px 10px;
+		width: 280px; height: 150px; margin:10 10 16px 10px;
 		border:1px #bbb solid; padding:5px; background:none; 
 		}
 
