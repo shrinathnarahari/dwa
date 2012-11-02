@@ -1,7 +1,7 @@
-<div id="content">
+
 
 <form method='POST' action='/users/p_login'>
-           
+ <div id="content">          
     Email<br>
 	<input type='text' name='email'>
 	<br><br>
@@ -11,7 +11,7 @@
 	<br><br>
 	
 	<input type='submit'>
+</div>
 
 </form> 
 
-</div>
