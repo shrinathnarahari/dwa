@@ -170,10 +170,10 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 #topnav a:focus			{ color: #666;  }
 #topnav a:hover     	{ color: #F90;  }
 
-#banner 			{ margin-bottom:30px;  }
+#banner 			{ margin-bottom:10px;  }
 #slider				{ margin-bottom:30px; 	}
 
-#content 			{ width:650px; float:left;  }
+#content 			{ width:300px; float:left;  }
 
 #content-fullwidth	{ width:100%;	}
 
