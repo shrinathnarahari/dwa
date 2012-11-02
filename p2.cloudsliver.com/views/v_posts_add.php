@@ -1,4 +1,4 @@
- <div id="textarea">
+ <div id="box1">
 <form method='POST' action='/posts/p_add'>
 
 	<strong>New Post:</strong><br>
