@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title><?=@$title; ?></title>
-<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/styles.css" rel="stylesheet" type="text/css" media="screen" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
 	
 	<!-- JS -->
