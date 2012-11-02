@@ -160,7 +160,7 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 
 #topnav 			{ clear:both;  }
 #topnav ul			{ border-top:1px #000 solid; border-bottom:1px #000 solid;
-						margin:10px 0; padding:10px 0;	}
+						margin:5px 0; padding:5px 0;	}
 #topnav ul li		{ display:inline;	}
 #topnav ul li a		{ padding:0 10px;	}
 
@@ -171,7 +171,7 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 #topnav a:hover     	{ color: #F90;  }
 
 #banner 			{ margin-bottom:5px;  }
-#slider				{ margin-bottom:30px; 	}
+#slider				{ margin-bottom:5px; 	}
 
 #content 			{ width:300px; float:left;  }
 
