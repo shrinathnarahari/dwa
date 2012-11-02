@@ -149,14 +149,14 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 
 #wrapper 			{ width:900px; margin:0 auto; background-color:#FFF;  }
 
-#logo	 			{ margin:30px 0px; float:left;  
+#logo	 			{ margin:10px 0px; float:left;  
                       }
 
 #logo a:link			{ color: #000;  }
 
 #social-media-icons			{ float:right;	}
 #social-media-icons	ul li 	{ display:inline; }
-#social-media-icons ul		{ margin-top:40px; }
+#social-media-icons ul		{ margin-top:10px; }
 
 #topnav 			{ clear:both;  }
 #topnav ul			{ border-top:1px #000 solid; border-bottom:1px #000 solid;
@@ -170,7 +170,7 @@ code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
 #topnav a:focus			{ color: #666;  }
 #topnav a:hover     	{ color: #F90;  }
 
-#banner 			{ margin-bottom:10px;  }
+#banner 			{ margin-bottom:5px;  }
 #slider				{ margin-bottom:30px; 	}
 
 #content 			{ width:300px; float:left;  }
