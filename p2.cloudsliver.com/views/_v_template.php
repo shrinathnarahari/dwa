@@ -32,7 +32,7 @@
           </ul>
 		</div>
 			
-        <div id="content"><!-- InstanceBeginEditable name="content" -->
+        <div id="content-fullwidth"><!-- InstanceBeginEditable name="content" -->
           <h1>Listen to what others are saying!</h1>
 		</div>
 		
@@ -65,8 +65,7 @@
 </div>		
 
 	
-	<br>
-	<?=$content;?> 
+	<!--?=$content;?--> 
 
 </body>
 </html>
