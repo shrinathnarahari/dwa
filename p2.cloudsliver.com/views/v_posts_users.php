@@ -1,6 +1,6 @@
 
 <form method='POST' action='/posts/p_follow'>
-	<div id="content">	
+	<div id="rightside">	
 	<? foreach($users as $user): ?>
 	
 		<!-- Print this user's name -->

@@ -1,5 +1,7 @@
+
 <form method='POST' action='/users/p_signup'>
-           
+
+<div id="content">           
     First Name<br>
 	<input type='text' name='first_name'>
 	<br><br>
@@ -17,5 +19,5 @@
 	<br><br>
 	
 	<input type='submit'>
-
+</div>
 </form>            		   

@@ -36,6 +36,7 @@
 		<div id="topnav">
 			  <? if($user): ?>
 		      <ul>
+			    <li><a href='/'>Home</a></li>
              	<li><a href='/users/logout'>Logout</a></li>
                 <li><a href='/posts/users/'>Change who you're following</a></li>
 			    <li><a href='/posts/'>View posts</a></li>
