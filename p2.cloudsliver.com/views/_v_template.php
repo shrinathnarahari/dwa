@@ -31,6 +31,10 @@
             	<li><a href="http://www.youtube.com"><img src="images/icons/youtube_32.png" /></a></li>
           </ul>
 		</div>
+			
+        <div id="content"><!-- InstanceBeginEditable name="content" -->
+          <h1>Listen to what others are saying!</h1>
+		</div>
 		
 		<div id="topnav">
 			  <? if($user): ?>
@@ -57,10 +61,7 @@
 				<div id="banner">
 			<img src="/images/blog.jpg" />
 		</div>
-	
-        <div id="content"><!-- InstanceBeginEditable name="content" -->
-          <h1>Listen to what others are saying!</h1>
-		</div>
+
 </div>		
 
 	
