@@ -18,7 +18,6 @@
 
 <div id="outer">
 
-   <div id="wrapper">
 	
 		<div id="logo">
 			<img src="/images/b1.jpg" />
@@ -62,7 +61,6 @@
         <div id="content"><!-- InstanceBeginEditable name="content" -->
           <h1>Listen to what others are saying!</h1>
 		</div>
-   </div>
 </div>		
 
 	
