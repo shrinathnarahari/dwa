@@ -1,4 +1,4 @@
-<div id="body">
+<div id="content">
 
 <form method='POST' action='/users/p_login'>
            
