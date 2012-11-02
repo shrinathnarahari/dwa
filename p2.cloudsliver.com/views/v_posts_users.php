@@ -1,3 +1,4 @@
+<div id="content">
 <form method='POST' action='/posts/p_follow'>
 		
 	<? foreach($users as $user): ?>
@@ -19,3 +20,4 @@
 	<? endforeach; ?>
 	
 </form>
+</div
