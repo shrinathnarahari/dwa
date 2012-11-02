@@ -21,7 +21,7 @@
    <div id="wrapper">
 	
 		<div id="logo">
-			<img src="images/b1.jpg" />
+			<img src="/images/b1.jpg" />
 		</div>
 		
 		<div id="social-media-icons">
@@ -55,7 +55,7 @@
 		</div>
 		
 				<div id="banner">
-			<img src="images/blog.jpg" />
+			<img src="/images/blog.jpg" />
 		</div>
 	
         <div id="content"><!-- InstanceBeginEditable name="content" -->
