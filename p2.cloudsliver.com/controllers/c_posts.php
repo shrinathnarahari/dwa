@@ -76,7 +76,7 @@ public function postlist() {
 	echo Debug::dump($q,"query");
 	# Run our query, grabbing all the posts and joining in the users	
 	$posts = DB::instance(DB_NAME)->select_rows($q);
-	echo Debug::dump($posts,"query");
+	#echo Debug::dump($posts,"query");
 	# Pass data to the view
 	$this->template->content->posts = $posts;
 	
