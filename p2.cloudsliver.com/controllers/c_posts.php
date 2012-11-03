@@ -73,7 +73,7 @@ public function postlist() {
           FROM posts p, users u
           WHERE u.user_id = p.user_id
           GROUP BY p.user_id";
-	echo Debug::dump($q,"query");
+	#echo Debug::dump($q,"query");
 	# Run our query, grabbing all the posts and joining in the users	
 	$posts = DB::instance(DB_NAME)->select_rows($q);
 	#echo Debug::dump($posts,"query");
