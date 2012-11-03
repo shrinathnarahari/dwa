@@ -1,4 +1,5 @@
- <div id="box1">
+ <div id="rightside">
+ 
 <? foreach($posts as $post): ?>
 	
 	<h2><?=$post['first_name']?> <?=$post['last_name']?> posted:</h2>

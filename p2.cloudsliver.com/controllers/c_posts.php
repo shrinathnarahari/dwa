@@ -84,6 +84,28 @@ public function postlist() {
 	echo $this->template;
 	
 }
+
+public function p_send() {
+
+	# Set up view
+	$this->template->content = View::instance('v_posts_send');
+	$this->template->title   = "Message Send";
+	
+	# Build our query
+	$q = "SELECT u.first_name, u.last_name, u.user_id from users
+          GROUP BY p.user_id";
+	#echo Debug::dump($q,"query");
+	# Run our query, grabbing all the posts and joining in the users	
+	$posts = DB::instance(DB_NAME)->select_rows($q);
+	#echo Debug::dump($posts,"query");
+	# Pass data to the view
+	$this->template->content->posts = $posts;
+	
+	# Render view
+	echo $this->template;
+	
+}
+
 public function users() {
 
 	# Set up the view
