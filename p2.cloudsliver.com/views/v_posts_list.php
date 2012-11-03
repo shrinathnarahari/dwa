@@ -2,7 +2,7 @@
 <? foreach($posts as $post): ?>
     <!--$nr_of_posts = array_slice($post,2);-->
     Debug::dump($post,"query");
-	<h2>List of posts <?=$post['first_name']?> <?=$post['last_name']?> <?=$post[count(user_id]?>  </h2>
+	<h2>List of posts <?=$post['first_name']?> <?=$post['last_name']?>  </h2>
 	<!--?=$post['content']?-->
 	
 	<br><br>
