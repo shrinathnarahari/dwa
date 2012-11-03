@@ -69,7 +69,7 @@ public function postlist() {
 	$this->template->title   = "List of posts by user";
 	
 	# Build our query
-	$q = "SELECT SELECT u.first_name, u.last_name, count( p.user_id ) 
+	$q = "SELECT u.first_name, u.last_name, count( p.user_id ) 
           FROM posts p, users u
           WHERE u.user_id = p.user_id
           GROUP BY p.user_id";
