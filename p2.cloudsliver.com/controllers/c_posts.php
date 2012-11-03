@@ -92,8 +92,8 @@ public function send() {
 	$this->template->title   = "Message Send";
 	
 	# Build our query
-	$q = "SELECT u.first_name, u.last_name, u.user_id from users
-          GROUP BY p.user_id";
+	$q = "SELECT u.first_name, u.last_name, u.user_id from users u
+          GROUP BY u.user_id";
 	#echo Debug::dump($q,"query");
 	# Run our query, grabbing all the posts and joining in the users	
 	$posts = DB::instance(DB_NAME)->select_rows($q);
