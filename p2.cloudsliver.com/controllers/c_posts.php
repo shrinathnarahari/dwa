@@ -69,14 +69,14 @@ public function postlist() {
 	$this->template->title   = "List of posts by user";
 	
 	# Build our query
-	$q = "SELECT u.first_name, u.last_name, count( p.user_id ) 
+	$q = "SELECT u.first_name, u.last_name, count( p.user_id ) as count
           FROM posts p, users u
           WHERE u.user_id = p.user_id
           GROUP BY p.user_id";
-	# echo Debug::dump($q,"query");
+	echo Debug::dump($q,"query");
 	# Run our query, grabbing all the posts and joining in the users	
 	$posts = DB::instance(DB_NAME)->select_rows($q);
-	
+	echo Debug::dump($posts,"query");
 	# Pass data to the view
 	$this->template->content->posts = $posts;
 	
