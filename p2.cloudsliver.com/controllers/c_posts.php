@@ -85,7 +85,7 @@ public function postlist() {
 	
 }
 
-public function posts_send() {
+public function send() {
 
 	# Set up view
 	$this->template->content = View::instance('v_posts_send');
