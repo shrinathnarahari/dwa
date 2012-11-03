@@ -62,7 +62,7 @@ public function index() {
 	
 }
 
-public function list() {
+public function postlist() {
 
 	# Set up view
 	$this->template->content = View::instance('v_posts_list');
@@ -142,4 +142,4 @@ public function unfollow($user_id_followed) {
 	Router::redirect("/posts/users");
 
 }
-}	   
+}

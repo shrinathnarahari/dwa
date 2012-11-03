@@ -44,7 +44,7 @@
                 <li><a href='/posts/users/'>Change who you're following</a></li>
 			    <li><a href='/posts/'>View posts</a></li>
                 <li><a href='/posts/add'>Add a new post</a></li>
-                <li><a href='/posts/list'>List of posts</a></li>	
+                <li><a href='/posts/postlist'>List of posts</a></li>	
                 <li><a href='/posts/send'>Send message</a></li>	
 			</ul>
 			 <? else: ?>
