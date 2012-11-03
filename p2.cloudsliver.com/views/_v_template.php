@@ -43,16 +43,14 @@
              	<li><a href='/users/logout'>Logout</a></li>
                 <li><a href='/posts/users/'>Change who you're following</a></li>
 			    <li><a href='/posts/'>View posts</a></li>
-                <li><a href='/posts/add'>Add a new post</a></li>						
-				<li><a href=""> </a></li>
+                <li><a href='/posts/add'>Add a new post</a></li>
+                <li><a href='/posts/list'>List of posts</a></li>	
+                <li><a href='/posts/send'>Send message</a></li>	
 			</ul>
 			 <? else: ?>
 		     <ul>
 			    <li><a href='/users/signup'>Sign up</a></li>
 			    <li><a href='/users/login'>Log in</a></li>
-		        <li><a href=""> </a></li>
-				<li><a href=""> </a></li>
-				<li><a href=""> </a></li>
 			</ul>
 		   <? endif; ?>
 		

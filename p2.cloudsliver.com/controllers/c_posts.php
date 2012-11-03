@@ -62,6 +62,28 @@ public function index() {
 	
 }
 
+public function list() {
+
+	# Set up view
+	$this->template->content = View::instance('v_posts_list');
+	$this->template->title   = "List of posts by user";
+	
+	# Build our query
+	$q = "SELECT SELECT u.first_name, u.last_name, count( p.user_id ) 
+          FROM posts p, users u
+          WHERE u.user_id = p.user_id
+          GROUPBY p.user_id";
+	# echo Debug::dump($q,"query");
+	# Run our query, grabbing all the posts and joining in the users	
+	$posts = DB::instance(DB_NAME)->select_rows($q);
+	
+	# Pass data to the view
+	$this->template->content->posts = $posts;
+	
+	# Render view
+	echo $this->template;
+	
+}
 public function users() {
 
 	# Set up the view
