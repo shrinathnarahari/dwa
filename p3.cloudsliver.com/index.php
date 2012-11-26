@@ -9,7 +9,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 
-		<script type="text/javascript" src="/mortgagecalc.js"></script>			
+		<!--script type="text/javascript" src="/mortgagecalc.js"></script-->			
 <style>  p { color:blue; width:200px; font-size:14px; }  </style> 
  <!--script src="http://code.jquery.com/jquery-latest.js"--></script>
  </head>
@@ -20,7 +20,41 @@
  {    $(this).css("color","red");  });
  
  </script>
+ <script>
  
+    $(document).ready(function(){
+
+  /***Initiates the Calculates function**/
+    $('button').click(function() {
+        calculate()
+    });
+	
+	 function calculate()
+    {
+        /**Declaring variables**/
+        var  mpayment;
+        var loan_amt = $('#loan_amt').val();
+        
+        var home_value = $('#home_value').val();
+        var interestrate =$('#interestrate').val();
+        var term = $('#term').val();
+    
+        /**Calculates the input fields***/
+        var term = term * 12;
+		var interestrate = interestrate/100;
+		console.log("hello");
+
+        var mpayment = (loan_amt*(interestrate(interestrate+1)*term))/((interestrate+1)*term - 1);
+        
+      
+        //Results
+        $('#mpayment').text(mpayment).show;
+        $('#term').text(term).show();
+
+        }
+    }
+     }); 
+ </script>
       <div class="wrapper">
             
                 <div id="heading">
