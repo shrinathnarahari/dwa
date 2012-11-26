@@ -14,6 +14,7 @@
  <!--script src="http://code.jquery.com/jquery-latest.js"--></script>
  </head>
  <body>   
+ 
  <p>Just roll the mouse over me.</p>  
  <p>Or me to see a color change.</p>  
  <script>  $("p").mouseover(function () 

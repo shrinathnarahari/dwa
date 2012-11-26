@@ -42,6 +42,7 @@
         var interestrate =$('#interestrate').val();
         var term = $('#term').val();
     
+	
         /**Validates inout fields***/
   /**      if(loan_amt==""||home_value==""||term == ""){
             $("#error").text("Please fill in the required fields");
