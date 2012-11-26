@@ -2,14 +2,14 @@
 <html>
 
 <head>  
-<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/styles.css" rel="stylesheet" type="text/css" media="screen" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
 	
 	<!-- JS -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 
-		<script type="text/javascript" src="mortgagecalc.js"></script>			
+		<script type="text/javascript" src="/mortgagecalc.js"></script>			
 <style>  p { color:blue; width:200px; font-size:14px; }  </style> 
  <!--script src="http://code.jquery.com/jquery-latest.js"--></script>
  </head>
